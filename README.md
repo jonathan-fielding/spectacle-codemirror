@@ -2,6 +2,8 @@
 
 Spectacle CodeMirror is a [Spectacle](https://formidable.com/open-source/spectacle/) wrapper extension for the [react-codemirror component built by Jed Watson](https://github.com/JedWatson/react-codemirror). It includes a small amount of CSS that fixes issues with integrating with Spectacle however all the options exposed by the React component are avaliable.
 
+![](screenshot.png)
+
 ## Installation
 To install simply run:
 
