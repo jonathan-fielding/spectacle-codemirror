@@ -1,0 +1,25 @@
+.CodeMirror {
+  text-align: left;
+  border: 1px solid #999;
+  box-shadow: #ccc 0px 0px 20px;
+}
+
+.CodeMirror-sizer {
+  position: initial;
+}
+
+.CodeMirror-sizer > * {
+  position: initial!important;
+}
+
+.CodeMirror-lines > *, .CodeMirror-code > * {
+  position: initial!important;
+}
+
+.CodeMirror-gutters, .CodeMirror-gutter-wrapper {
+  left: 0!important;
+}
+
+.CodeMirror-cursor {
+  height: auto !important;
+}

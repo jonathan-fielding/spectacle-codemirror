@@ -1,0 +1,38 @@
+{
+  "name": "spectacle-codemirror",
+  "version": "0.0.1",
+  "description": "A spectacle extension adding codemirror code editor",
+  "main": "lib/spectacle-codemirror",
+  "scripts": {
+    "build": "babel src -d lib && cp src/spectacle-codemirror.css lib/spectacle-codemirror.css",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathan-fielding/spectacle-codemirror.git"
+  },
+  "keywords": [
+    "Spectacle",
+    "presentation",
+    "code",
+    "editor"
+  ],
+  "author": "Jonathan Fielding",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jonathan-fielding/spectacle-codemirror/issues"
+  },
+  "homepage": "https://github.com/jonathan-fielding/spectacle-codemirror#readme",
+  "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-preset-es2015": "^6.11.4",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-1": "^6.11.4",
+    "react": "^0.14.0 || ^15.0.0",
+    "react-dom": "^0.14.0 || ^15.0.0",
+    "spectacle": "^1.2.5"
+  },
+  "dependencies": {
+    "react-codemirror": "^1.0.0"
+  }
+}
